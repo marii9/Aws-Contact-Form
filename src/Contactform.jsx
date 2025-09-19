@@ -39,6 +39,10 @@ export default function Contactform() {
     }
   };
   
+if (!/\S+@\S+\.\S+/.test(formData.email)) {
+  setStatus("⚠️ Please enter a valid email.");
+  return;
+}
 
   return (
     <div className="max-w-md mx-auto p-4 border rounded-lg shadow-md">
