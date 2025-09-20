@@ -117,7 +117,7 @@ export default function ContactForm() {
         <button
           type="submit"
           className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-3 rounded-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 flex justify-center items-center">
-          disabled={loading}
+          
         >
           {loading ? (
             <svg
