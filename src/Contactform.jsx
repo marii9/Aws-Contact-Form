@@ -45,7 +45,7 @@ export default function ContactForm() {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("https://YOUR_API_GATEWAY/contactroute", {
+      const response = await fetch("https://fmdovuru42.execute-api.us-east-2.amazonaws.com/prod/contactroute", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
