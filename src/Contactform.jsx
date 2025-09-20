@@ -118,7 +118,7 @@ export default function ContactForm() {
           type="submit"
           className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-3 rounded-lg hover:from-blue-600 hover:to-indigo-600 transition-all duration-300 flex justify-center items-center">
           
-        >
+        
           {loading ? (
             <svg
               className="animate-spin h-5 w-5 mr-2 text-white"
